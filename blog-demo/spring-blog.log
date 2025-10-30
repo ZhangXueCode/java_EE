@@ -1,0 +1,1069 @@
+2025-10-27T15:24:12.682+08:00  INFO 7864 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 7864 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:24:12.694+08:00  INFO 7864 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:24:14.388+08:00  INFO 7864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:24:14.411+08:00  INFO 7864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:24:14.411+08:00  INFO 7864 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:24:14.508+08:00  INFO 7864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:24:14.509+08:00  INFO 7864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1744 ms
+2025-10-27T15:24:15.796+08:00  INFO 7864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:24:15.810+08:00  INFO 7864 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 4.018 seconds (process running for 4.552)
+2025-10-27T15:24:38.510+08:00  INFO 7864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:24:38.510+08:00  INFO 7864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:24:38.510+08:00  INFO 7864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T15:24:41.658+08:00  INFO 7864 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:24:41.909+08:00  INFO 7864 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50fb19d1
+2025-10-27T15:24:41.913+08:00  INFO 7864 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:24:42.122+08:00  INFO 7864 --- [http-nio-8080-exec-7] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU1MzQ4Mn0.TgUTCyNfKTQfb_lGERicC0xWH3oK-RCqtf-rRXRGGRs
+2025-10-27T15:25:18.812+08:00  INFO 7864 --- [http-nio-8080-exec-8] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU1MzUxOH0.r6kA7xMHQCXuIqgH4m0b5R-Td_IhovTRS7sKRryjYHE
+2025-10-27T15:25:48.626+08:00  INFO 7864 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:25:48.712+08:00  INFO 7864 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:25:48.716+08:00  INFO 7864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:25:48.727+08:00  INFO 7864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:29:30.687+08:00  INFO 18068 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 18068 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:29:30.691+08:00  INFO 18068 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:29:32.182+08:00  INFO 18068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:29:32.196+08:00  INFO 18068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:29:32.197+08:00  INFO 18068 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:29:32.279+08:00  INFO 18068 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:29:32.279+08:00  INFO 18068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1520 ms
+2025-10-27T15:29:33.380+08:00  INFO 18068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:29:33.396+08:00  INFO 18068 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.469 seconds (process running for 3.937)
+2025-10-27T15:29:39.045+08:00  INFO 18068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:29:39.045+08:00  INFO 18068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:29:39.046+08:00  INFO 18068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T15:29:39.185+08:00  INFO 18068 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:29:39.378+08:00  INFO 18068 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e8c1750
+2025-10-27T15:29:39.381+08:00  INFO 18068 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:33:02.403+08:00  INFO 18068 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:33:02.480+08:00  INFO 18068 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:33:02.485+08:00  INFO 18068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:33:02.493+08:00  INFO 18068 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:36:31.361+08:00  INFO 29300 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 29300 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:36:31.364+08:00  INFO 29300 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:36:32.853+08:00  INFO 29300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:36:32.869+08:00  INFO 29300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:36:32.869+08:00  INFO 29300 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:36:32.967+08:00  INFO 29300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:36:32.967+08:00  INFO 29300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1546 ms
+2025-10-27T15:36:34.135+08:00  INFO 29300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:36:34.149+08:00  INFO 29300 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.514 seconds (process running for 3.962)
+2025-10-27T15:36:37.194+08:00  INFO 29300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:36:37.195+08:00  INFO 29300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:36:37.196+08:00  INFO 29300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T15:36:37.295+08:00 ERROR 29300 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:36:37.386+08:00  INFO 29300 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:36:37.598+08:00  INFO 29300 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19c52f0e
+2025-10-27T15:36:37.601+08:00  INFO 29300 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:36:40.129+08:00 ERROR 29300 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:36:43.821+08:00 ERROR 29300 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:38:46.991+08:00  INFO 29300 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:38:47.091+08:00  INFO 29300 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:38:47.095+08:00  INFO 29300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:38:47.104+08:00  INFO 29300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:38:50.051+08:00  INFO 1336 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 1336 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:38:50.055+08:00  INFO 1336 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:38:51.544+08:00  INFO 1336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:38:51.559+08:00  INFO 1336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:38:51.559+08:00  INFO 1336 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:38:51.638+08:00  INFO 1336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:38:51.638+08:00  INFO 1336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1530 ms
+2025-10-27T15:38:52.722+08:00  INFO 1336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:38:52.735+08:00  INFO 1336 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.389 seconds (process running for 3.856)
+2025-10-27T15:38:57.980+08:00  INFO 1336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:38:57.980+08:00  INFO 1336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:38:57.981+08:00  INFO 1336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T15:38:58.131+08:00 ERROR 1336 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:39:05.009+08:00  INFO 1336 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:39:05.237+08:00  INFO 1336 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@582ffafb
+2025-10-27T15:39:05.241+08:00  INFO 1336 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:39:48.075+08:00 ERROR 1336 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:41:00.597+08:00  INFO 1336 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:41:00.692+08:00  INFO 1336 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:41:00.696+08:00  INFO 1336 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:41:00.704+08:00  INFO 1336 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:41:03.617+08:00  INFO 22372 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 22372 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:41:03.621+08:00  INFO 22372 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:41:05.109+08:00  INFO 22372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:41:05.126+08:00  INFO 22372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:41:05.127+08:00  INFO 22372 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:41:05.216+08:00  INFO 22372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:41:05.217+08:00  INFO 22372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1542 ms
+2025-10-27T15:41:06.359+08:00  INFO 22372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:41:06.372+08:00  INFO 22372 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.445 seconds (process running for 3.902)
+2025-10-27T15:41:09.994+08:00  INFO 22372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:41:09.995+08:00  INFO 22372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:41:09.997+08:00  INFO 22372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-27T15:41:10.145+08:00 ERROR 22372 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:41:33.072+08:00  WARN 22372 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.example.blog.config.ExceptionHandle#handle(Exception)
+
+org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class com.example.blog.model.Result] with preset Content-Type 'text/css'
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:365) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:208) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:471) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:73) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:182) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1360) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1161) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-10-27T15:41:36.831+08:00 ERROR 22372 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:41:40.288+08:00 ERROR 22372 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:41:51.303+08:00 ERROR 22372 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:41:51.359+08:00  INFO 22372 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:41:51.586+08:00  INFO 22372 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f70aaee
+2025-10-27T15:41:51.589+08:00  INFO 22372 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:41:55.521+08:00 ERROR 22372 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:41:59.109+08:00 ERROR 22372 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:43:16.400+08:00  INFO 22372 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:43:16.487+08:00  INFO 22372 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:43:16.491+08:00  INFO 22372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:43:16.498+08:00  INFO 22372 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:43:19.153+08:00  INFO 25640 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 25640 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:43:19.156+08:00  INFO 25640 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:43:20.675+08:00  INFO 25640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:43:20.691+08:00  INFO 25640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:43:20.691+08:00  INFO 25640 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:43:20.769+08:00  INFO 25640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:43:20.769+08:00  INFO 25640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1560 ms
+2025-10-27T15:43:21.880+08:00  INFO 25640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:43:21.895+08:00  INFO 25640 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.47 seconds (process running for 3.92)
+2025-10-27T15:43:26.630+08:00  INFO 25640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:43:26.630+08:00  INFO 25640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:43:26.631+08:00  INFO 25640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T15:43:26.762+08:00 ERROR 25640 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:43:37.838+08:00 ERROR 25640 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:43:37.954+08:00  INFO 25640 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:43:38.197+08:00  INFO 25640 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d6b2cb4
+2025-10-27T15:43:38.200+08:00  INFO 25640 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:43:41.393+08:00 ERROR 25640 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:46:04.615+08:00 ERROR 25640 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:46:04.620+08:00 ERROR 25640 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:46:04.621+08:00 ERROR 25640 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:46:04.711+08:00 ERROR 25640 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:46:16.259+08:00  INFO 25640 --- [http-nio-8080-exec-6] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU1NDc3Nn0.DGxn5-6N11M0O3_RVyIFnv0GPXe_xWjEnYDnJ1GcN2A
+2025-10-27T15:46:16.338+08:00 ERROR 25640 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:46:25.324+08:00 ERROR 25640 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:46:35.581+08:00 ERROR 25640 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:48:22.035+08:00 ERROR 25640 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:48:34.065+08:00 ERROR 25640 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:48:46.057+08:00 ERROR 25640 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:49:04.890+08:00 ERROR 25640 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:49:13.592+08:00 ERROR 25640 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:51:07.077+08:00 ERROR 25640 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:52:01.033+08:00 ERROR 25640 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:52:17.056+08:00 ERROR 25640 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:57:45.291+08:00 ERROR 25640 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:58:41.150+08:00  INFO 25640 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:58:41.248+08:00  INFO 25640 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:58:41.252+08:00  INFO 25640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:58:41.266+08:00  INFO 25640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:58:45.949+08:00  INFO 14352 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 14352 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:58:45.952+08:00  INFO 14352 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:58:47.393+08:00  INFO 14352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:58:47.410+08:00  INFO 14352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:58:47.410+08:00  INFO 14352 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:58:47.505+08:00  INFO 14352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:58:47.505+08:00  INFO 14352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1486 ms
+2025-10-27T15:58:48.640+08:00  INFO 14352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:58:48.654+08:00  INFO 14352 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.434 seconds (process running for 3.898)
+2025-10-27T15:58:52.879+08:00  INFO 14352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:58:52.880+08:00  INFO 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:58:52.882+08:00  INFO 14352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T15:58:52.969+08:00  INFO 14352 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:58:53.184+08:00  INFO 14352 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68845f3d
+2025-10-27T15:58:53.187+08:00  INFO 14352 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:58:53.315+08:00 ERROR 14352 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T15:59:50.962+08:00  INFO 14352 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:59:51.049+08:00  INFO 14352 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:59:51.053+08:00  INFO 14352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:59:51.064+08:00  INFO 14352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:59:55.669+08:00  INFO 7792 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 7792 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T15:59:55.672+08:00  INFO 7792 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:59:57.110+08:00  INFO 7792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:59:57.127+08:00  INFO 7792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:59:57.128+08:00  INFO 7792 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:59:57.204+08:00  INFO 7792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:59:57.204+08:00  INFO 7792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1479 ms
+2025-10-27T15:59:58.262+08:00  INFO 7792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:59:58.274+08:00  INFO 7792 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.325 seconds (process running for 3.763)
+2025-10-27T16:00:03.201+08:00  INFO 7792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:00:03.202+08:00  INFO 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:00:03.204+08:00  INFO 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:00:03.345+08:00 ERROR 7792 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:01:11.769+08:00 ERROR 7792 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:01:11.865+08:00  INFO 7792 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:01:12.080+08:00  INFO 7792 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@617632c0
+2025-10-27T16:01:12.083+08:00  INFO 7792 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:01:21.370+08:00 ERROR 7792 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:01:38.303+08:00 ERROR 7792 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:01:58.320+08:00 ERROR 7792 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:01:58.338+08:00 ERROR 7792 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:02:13.792+08:00 ERROR 7792 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:02:58.689+08:00 ERROR 7792 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:03:00.660+08:00 ERROR 7792 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:03:06.870+08:00 ERROR 7792 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:03:14.338+08:00 ERROR 7792 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:03:14.339+08:00 ERROR 7792 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:04:12.940+08:00 ERROR 7792 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:04:37.531+08:00 ERROR 7792 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:08:19.969+08:00  INFO 7792 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:08:20.057+08:00  INFO 7792 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:08:20.060+08:00  INFO 7792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:08:20.068+08:00  INFO 7792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:08:22.834+08:00  INFO 18008 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 18008 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:08:22.838+08:00  INFO 18008 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:08:24.350+08:00  INFO 18008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:08:24.367+08:00  INFO 18008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:08:24.368+08:00  INFO 18008 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:08:24.446+08:00  INFO 18008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:08:24.447+08:00  INFO 18008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1537 ms
+2025-10-27T16:08:25.540+08:00  INFO 18008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:08:25.554+08:00  INFO 18008 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.451 seconds (process running for 3.897)
+2025-10-27T16:08:30.969+08:00  INFO 18008 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:08:30.969+08:00  INFO 18008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:08:30.970+08:00  INFO 18008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:08:31.079+08:00 ERROR 18008 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:08:31.079+08:00 ERROR 18008 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:08:31.169+08:00  INFO 18008 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:08:31.379+08:00  INFO 18008 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cc9d909
+2025-10-27T16:08:31.382+08:00  INFO 18008 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:08:56.267+08:00 ERROR 18008 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:08:56.302+08:00 ERROR 18008 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:09:27.503+08:00 ERROR 18008 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:09:27.540+08:00 ERROR 18008 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:09:38.351+08:00 ERROR 18008 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:09:38.367+08:00 ERROR 18008 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:10:25.849+08:00 ERROR 18008 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:10:25.884+08:00 ERROR 18008 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:11:11.732+08:00  INFO 18008 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:11:11.844+08:00  INFO 18008 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:11:11.847+08:00  INFO 18008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:11:11.857+08:00  INFO 18008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:11:14.809+08:00  INFO 10616 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 10616 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:11:14.813+08:00  INFO 10616 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:11:16.318+08:00  INFO 10616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:11:16.334+08:00  INFO 10616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:11:16.334+08:00  INFO 10616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:11:16.420+08:00  INFO 10616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:11:16.421+08:00  INFO 10616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1554 ms
+2025-10-27T16:11:17.541+08:00  INFO 10616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:11:17.555+08:00  INFO 10616 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.469 seconds (process running for 3.899)
+2025-10-27T16:11:20.735+08:00  INFO 10616 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:11:20.735+08:00  INFO 10616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:11:20.736+08:00  INFO 10616 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:11:20.867+08:00 ERROR 10616 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:11:20.867+08:00 ERROR 10616 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:11:20.983+08:00  INFO 10616 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:11:21.212+08:00  INFO 10616 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5240864c
+2025-10-27T16:11:21.217+08:00  INFO 10616 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:18:04.453+08:00 ERROR 10616 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:04.474+08:00 ERROR 10616 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:21.946+08:00  INFO 10616 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:18:22.051+08:00  INFO 10616 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:18:22.055+08:00  INFO 10616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:18:22.064+08:00  INFO 10616 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:18:24.925+08:00  INFO 14096 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 14096 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:18:24.927+08:00  INFO 14096 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:18:26.510+08:00  INFO 14096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:18:26.526+08:00  INFO 14096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:18:26.526+08:00  INFO 14096 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:18:26.609+08:00  INFO 14096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:18:26.609+08:00  INFO 14096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1626 ms
+2025-10-27T16:18:27.894+08:00  INFO 14096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:18:27.909+08:00  INFO 14096 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.702 seconds (process running for 4.21)
+2025-10-27T16:18:29.680+08:00  INFO 14096 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:18:29.680+08:00  INFO 14096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:18:29.683+08:00  INFO 14096 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-27T16:18:29.773+08:00 ERROR 14096 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:29.825+08:00 ERROR 14096 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:30.740+08:00 ERROR 14096 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:30.743+08:00 ERROR 14096 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:35.480+08:00 ERROR 14096 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:35.608+08:00 ERROR 14096 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:35.719+08:00  INFO 14096 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:18:35.953+08:00  INFO 14096 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45b35492
+2025-10-27T16:18:35.956+08:00  INFO 14096 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:18:41.440+08:00 ERROR 14096 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:41.601+08:00 ERROR 14096 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:42.025+08:00 ERROR 14096 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:42.095+08:00 ERROR 14096 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:56.207+08:00 ERROR 14096 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:18:56.226+08:00 ERROR 14096 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:07.350+08:00 ERROR 14096 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:07.460+08:00 ERROR 14096 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:07.527+08:00 ERROR 14096 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:11.209+08:00 ERROR 14096 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:11.210+08:00 ERROR 14096 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:11.237+08:00 ERROR 14096 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:11.238+08:00 ERROR 14096 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:11.296+08:00 ERROR 14096 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:11.297+08:00 ERROR 14096 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:12.478+08:00  INFO 14096 --- [http-nio-8080-exec-10] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU1NjgxMn0.bgYpb1GIvuPfZ5k5gHuOAxwDu-jGnaeogsrrxH5utTw
+2025-10-27T16:20:12.545+08:00 ERROR 14096 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:12.563+08:00 ERROR 14096 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:14.152+08:00 ERROR 14096 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:14.193+08:00 ERROR 14096 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:20:23.932+08:00 ERROR 14096 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:21:03.698+08:00  INFO 14096 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:21:03.802+08:00  INFO 14096 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:21:03.806+08:00  INFO 14096 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:21:03.814+08:00  INFO 14096 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:21:07.948+08:00  INFO 20592 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 20592 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:21:07.952+08:00  INFO 20592 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:21:09.594+08:00  INFO 20592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:21:09.615+08:00  INFO 20592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:21:09.616+08:00  INFO 20592 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:21:09.723+08:00  INFO 20592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:21:09.724+08:00  INFO 20592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1708 ms
+2025-10-27T16:21:11.005+08:00  INFO 20592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:21:11.019+08:00  INFO 20592 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.831 seconds (process running for 4.867)
+2025-10-27T16:21:26.613+08:00  INFO 20592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:21:26.613+08:00  INFO 20592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:21:26.614+08:00  INFO 20592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:21:26.762+08:00 ERROR 20592 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:21:50.455+08:00 ERROR 20592 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:21:50.477+08:00  INFO 20592 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:21:50.482+08:00  INFO 20592 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:21:50.722+08:00  INFO 20592 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1216562e
+2025-10-27T16:21:50.727+08:00  INFO 20592 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:21:50.954+08:00  INFO 20592 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:21:50.958+08:00  INFO 20592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:21:51.003+08:00  INFO 20592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:21:55.892+08:00  INFO 18768 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 18768 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:21:55.895+08:00  INFO 18768 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:21:57.393+08:00  INFO 18768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:21:57.409+08:00  INFO 18768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:21:57.409+08:00  INFO 18768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:21:57.493+08:00  INFO 18768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:21:57.494+08:00  INFO 18768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1534 ms
+2025-10-27T16:21:58.634+08:00  INFO 18768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:21:58.647+08:00  INFO 18768 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.491 seconds (process running for 3.986)
+2025-10-27T16:22:23.792+08:00  INFO 18768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:22:23.793+08:00  INFO 18768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:22:23.794+08:00  INFO 18768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:22:23.915+08:00 ERROR 18768 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:22:26.691+08:00  INFO 18768 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:22:26.939+08:00  INFO 18768 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53f47080
+2025-10-27T16:22:26.942+08:00  INFO 18768 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:22:29.973+08:00 ERROR 18768 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:23:47.577+08:00 ERROR 18768 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:23:54.395+08:00 ERROR 18768 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:24:34.710+08:00  INFO 18768 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:24:34.788+08:00  INFO 18768 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:24:34.793+08:00  INFO 18768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:24:34.800+08:00  INFO 18768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:25:20.000+08:00  INFO 14212 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 14212 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:25:20.003+08:00  INFO 14212 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:25:21.537+08:00  INFO 14212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:25:21.555+08:00  INFO 14212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:25:21.555+08:00  INFO 14212 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:25:21.632+08:00  INFO 14212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:25:21.633+08:00  INFO 14212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1573 ms
+2025-10-27T16:25:22.703+08:00  INFO 14212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:25:22.718+08:00  INFO 14212 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.423 seconds (process running for 3.876)
+2025-10-27T16:25:45.628+08:00  INFO 14212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:25:45.629+08:00  INFO 14212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:25:45.630+08:00  INFO 14212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:25:45.744+08:00 ERROR 14212 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:25:45.840+08:00  INFO 14212 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:25:46.090+08:00  INFO 14212 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b4b9e60
+2025-10-27T16:25:46.093+08:00  INFO 14212 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:26:02.626+08:00 ERROR 14212 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:26:06.130+08:00 ERROR 14212 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:26:12.269+08:00 ERROR 14212 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:26:13.727+08:00 ERROR 14212 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:26:19.290+08:00 ERROR 14212 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:26:20.624+08:00 ERROR 14212 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:26:22.536+08:00 ERROR 14212 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:29:52.697+08:00 ERROR 14212 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:29:57.735+08:00 ERROR 14212 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:29:59.395+08:00 ERROR 14212 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:30:03.039+08:00 ERROR 14212 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:30:05.496+08:00 ERROR 14212 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:30:15.717+08:00 ERROR 14212 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:30:17.868+08:00 ERROR 14212 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:30:23.657+08:00 ERROR 14212 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:30:26.015+08:00 ERROR 14212 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:33:20.835+08:00  INFO 14212 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:33:20.917+08:00  INFO 14212 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:33:20.920+08:00  INFO 14212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:33:20.926+08:00  INFO 14212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:33:25.765+08:00  INFO 12560 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 12560 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:33:25.769+08:00  INFO 12560 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:33:27.257+08:00  INFO 12560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:33:27.274+08:00  INFO 12560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:33:27.274+08:00  INFO 12560 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:33:27.351+08:00  INFO 12560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:33:27.351+08:00  INFO 12560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1525 ms
+2025-10-27T16:33:28.459+08:00  INFO 12560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:33:28.475+08:00  INFO 12560 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.472 seconds (process running for 3.911)
+2025-10-27T16:34:08.846+08:00  INFO 12560 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:34:08.847+08:00  INFO 12560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:34:08.848+08:00  INFO 12560 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:34:08.943+08:00 ERROR 12560 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:34:09.054+08:00  INFO 12560 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:34:09.279+08:00  INFO 12560 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ff5b3fb
+2025-10-27T16:34:09.282+08:00  INFO 12560 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:34:12.613+08:00 ERROR 12560 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:36:05.489+08:00  INFO 12560 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:36:05.575+08:00  INFO 12560 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:36:05.577+08:00  INFO 12560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:36:05.585+08:00  INFO 12560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:36:08.377+08:00  INFO 24612 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 24612 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:36:08.379+08:00  INFO 24612 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:36:09.939+08:00  INFO 24612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:36:09.956+08:00  INFO 24612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:36:09.957+08:00  INFO 24612 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:36:10.037+08:00  INFO 24612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:36:10.038+08:00  INFO 24612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1603 ms
+2025-10-27T16:36:11.091+08:00  INFO 24612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:36:11.102+08:00  INFO 24612 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.447 seconds (process running for 3.893)
+2025-10-27T16:36:17.313+08:00  INFO 24612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:36:17.313+08:00  INFO 24612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:36:17.314+08:00  INFO 24612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:36:17.412+08:00 ERROR 24612 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:36:17.506+08:00  INFO 24612 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:36:17.708+08:00  INFO 24612 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f85fc03
+2025-10-27T16:36:17.710+08:00  INFO 24612 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:36:21.234+08:00 ERROR 24612 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:36:24.105+08:00 ERROR 24612 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:36:30.312+08:00 ERROR 24612 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:36:32.087+08:00 ERROR 24612 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:37:41.531+08:00  INFO 24612 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:37:41.625+08:00  INFO 24612 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:37:41.629+08:00  INFO 24612 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:37:41.637+08:00  INFO 24612 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:37:44.647+08:00  INFO 25632 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 25632 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:37:44.650+08:00  INFO 25632 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:37:46.181+08:00  INFO 25632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:37:46.197+08:00  INFO 25632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:37:46.197+08:00  INFO 25632 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:37:46.278+08:00  INFO 25632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:37:46.278+08:00  INFO 25632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1576 ms
+2025-10-27T16:37:47.397+08:00  INFO 25632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:37:47.414+08:00  INFO 25632 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.471 seconds (process running for 3.964)
+2025-10-27T16:38:03.713+08:00  INFO 25632 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:38:03.713+08:00  INFO 25632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:38:03.714+08:00  INFO 25632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:38:03.909+08:00  INFO 25632 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:38:04.126+08:00  INFO 25632 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d810c26
+2025-10-27T16:38:04.128+08:00  INFO 25632 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:38:04.314+08:00 ERROR 25632 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:38:44.051+08:00 ERROR 25632 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:38:47.377+08:00 ERROR 25632 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:38:48.928+08:00 ERROR 25632 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:38:52.567+08:00 ERROR 25632 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:38:54.284+08:00 ERROR 25632 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:39:00.770+08:00 ERROR 25632 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:44:08.154+08:00  INFO 25632 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:44:08.246+08:00  INFO 25632 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:44:08.249+08:00  INFO 25632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:44:08.257+08:00  INFO 25632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:44:11.119+08:00  INFO 9612 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 9612 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:44:11.124+08:00  INFO 9612 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:44:12.603+08:00  INFO 9612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:44:12.620+08:00  INFO 9612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:44:12.620+08:00  INFO 9612 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:44:12.703+08:00  INFO 9612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:44:12.703+08:00  INFO 9612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1518 ms
+2025-10-27T16:44:13.801+08:00  INFO 9612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:44:13.817+08:00  INFO 9612 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.389 seconds (process running for 3.827)
+2025-10-27T16:44:19.443+08:00  INFO 9612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:44:19.443+08:00  INFO 9612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:44:19.444+08:00  INFO 9612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:44:19.532+08:00 ERROR 9612 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:44:19.622+08:00  INFO 9612 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:44:19.848+08:00  INFO 9612 --- [http-nio-8080-exec-8] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@663969e4
+2025-10-27T16:44:19.851+08:00  INFO 9612 --- [http-nio-8080-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:44:24.207+08:00 ERROR 9612 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:44:30.494+08:00 ERROR 9612 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:44:33.220+08:00 ERROR 9612 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:44:35.088+08:00 ERROR 9612 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:44:38.775+08:00 ERROR 9612 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:01.687+08:00 ERROR 9612 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:04.441+08:00 ERROR 9612 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:15.415+08:00 ERROR 9612 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:18.456+08:00 ERROR 9612 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:20.912+08:00 ERROR 9612 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:22.729+08:00 ERROR 9612 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:23.378+08:00 ERROR 9612 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:25.782+08:00 ERROR 9612 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:45:32.982+08:00 ERROR 9612 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:46:46.011+08:00 ERROR 9612 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:46:49.175+08:00 ERROR 9612 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:46:50.162+08:00 ERROR 9612 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:46:51.856+08:00 ERROR 9612 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:48:31.306+08:00  INFO 9612 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:48:31.397+08:00  INFO 9612 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:48:31.400+08:00  INFO 9612 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:48:31.409+08:00  INFO 9612 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:48:34.564+08:00  INFO 14488 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 14488 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:48:34.569+08:00  INFO 14488 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:48:36.105+08:00  INFO 14488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:48:36.120+08:00  INFO 14488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:48:36.121+08:00  INFO 14488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:48:36.220+08:00  INFO 14488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:48:36.220+08:00  INFO 14488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1590 ms
+2025-10-27T16:48:37.401+08:00  INFO 14488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:48:37.420+08:00  INFO 14488 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.584 seconds (process running for 4.044)
+2025-10-27T16:48:41.677+08:00  INFO 14488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:48:41.678+08:00  INFO 14488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:48:41.679+08:00  INFO 14488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:48:41.772+08:00 ERROR 14488 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:48:41.870+08:00  INFO 14488 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:48:42.084+08:00  INFO 14488 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34113361
+2025-10-27T16:48:42.087+08:00  INFO 14488 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:48:43.941+08:00 ERROR 14488 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:50:28.720+08:00  INFO 14488 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:50:28.808+08:00  INFO 14488 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:50:28.811+08:00  INFO 14488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:50:28.819+08:00  INFO 14488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:50:31.757+08:00  INFO 26700 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 26700 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:50:31.760+08:00  INFO 26700 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:50:33.355+08:00  INFO 26700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:50:33.372+08:00  INFO 26700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:50:33.372+08:00  INFO 26700 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:50:33.454+08:00  INFO 26700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:50:33.455+08:00  INFO 26700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1630 ms
+2025-10-27T16:50:34.488+08:00  INFO 26700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:50:34.503+08:00  INFO 26700 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.448 seconds (process running for 3.898)
+2025-10-27T16:50:39.642+08:00  INFO 26700 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:50:39.643+08:00  INFO 26700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:50:39.644+08:00  INFO 26700 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:50:39.726+08:00 ERROR 26700 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:50:39.815+08:00  INFO 26700 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:50:40.017+08:00  INFO 26700 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@309248a7
+2025-10-27T16:50:40.019+08:00  INFO 26700 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:50:56.841+08:00 ERROR 26700 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:57:19.329+08:00 ERROR 26700 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:57:27.015+08:00 ERROR 26700 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:57:28.293+08:00 ERROR 26700 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:57:30.559+08:00 ERROR 26700 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:59:41.962+08:00  INFO 26700 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:59:42.054+08:00  INFO 26700 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:59:42.059+08:00  INFO 26700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:59:42.067+08:00  INFO 26700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:59:45.136+08:00  INFO 4488 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 4488 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T16:59:45.141+08:00  INFO 4488 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:59:46.699+08:00  INFO 4488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:59:46.719+08:00  INFO 4488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:59:46.719+08:00  INFO 4488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:59:46.815+08:00  INFO 4488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:59:46.816+08:00  INFO 4488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1611 ms
+2025-10-27T16:59:47.984+08:00  INFO 4488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:59:48.000+08:00  INFO 4488 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.605 seconds (process running for 4.054)
+2025-10-27T16:59:53.706+08:00  INFO 4488 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:59:53.706+08:00  INFO 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:59:53.707+08:00  INFO 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:59:53.801+08:00 ERROR 4488 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T16:59:53.906+08:00  INFO 4488 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:59:54.103+08:00  INFO 4488 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23caf842
+2025-10-27T16:59:54.106+08:00  INFO 4488 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:00:27.660+08:00  INFO 4488 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:00:27.756+08:00  INFO 4488 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:00:27.761+08:00  INFO 4488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:00:27.772+08:00  INFO 4488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:00:30.752+08:00  INFO 8880 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 8880 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:00:30.754+08:00  INFO 8880 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:00:32.203+08:00  INFO 8880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:00:32.219+08:00  INFO 8880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:00:32.219+08:00  INFO 8880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:00:32.321+08:00  INFO 8880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:00:32.322+08:00  INFO 8880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1510 ms
+2025-10-27T17:00:33.441+08:00  INFO 8880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:00:33.456+08:00  INFO 8880 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.377 seconds (process running for 3.832)
+2025-10-27T17:00:39.176+08:00  INFO 8880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:00:39.178+08:00  INFO 8880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:00:39.181+08:00  INFO 8880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-27T17:00:39.338+08:00 ERROR 8880 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:00:39.434+08:00  INFO 8880 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:00:39.629+08:00  INFO 8880 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63fc3d81
+2025-10-27T17:00:39.632+08:00  INFO 8880 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:03:23.361+08:00  INFO 8880 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:03:23.461+08:00  INFO 8880 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:03:23.466+08:00  INFO 8880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:03:23.473+08:00  INFO 8880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:03:26.487+08:00  INFO 12948 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 12948 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:03:26.490+08:00  INFO 12948 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:03:27.977+08:00  INFO 12948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:03:27.992+08:00  INFO 12948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:03:27.992+08:00  INFO 12948 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:03:28.073+08:00  INFO 12948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:03:28.074+08:00  INFO 12948 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1530 ms
+2025-10-27T17:03:29.195+08:00  INFO 12948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:03:29.208+08:00  INFO 12948 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.425 seconds (process running for 3.873)
+2025-10-27T17:03:35.336+08:00  INFO 12948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:03:35.336+08:00  INFO 12948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:03:35.337+08:00  INFO 12948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:03:35.429+08:00 ERROR 12948 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:03:35.523+08:00  INFO 12948 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:03:35.733+08:00  INFO 12948 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78c66a67
+2025-10-27T17:03:35.735+08:00  INFO 12948 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:04:55.886+08:00 ERROR 12948 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:06:03.768+08:00  INFO 12948 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:06:03.864+08:00  INFO 12948 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:06:03.868+08:00  INFO 12948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:06:03.877+08:00  INFO 12948 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:06:06.881+08:00  INFO 23272 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 23272 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:06:06.884+08:00  INFO 23272 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:06:08.398+08:00  INFO 23272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:06:08.415+08:00  INFO 23272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:06:08.415+08:00  INFO 23272 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:06:08.494+08:00  INFO 23272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:06:08.494+08:00  INFO 23272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1553 ms
+2025-10-27T17:06:09.619+08:00  INFO 23272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:06:09.634+08:00  INFO 23272 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.467 seconds (process running for 3.92)
+2025-10-27T17:06:15.723+08:00  INFO 23272 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:06:15.723+08:00  INFO 23272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:06:15.724+08:00  INFO 23272 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:06:15.828+08:00 ERROR 23272 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:06:15.924+08:00  INFO 23272 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:06:16.127+08:00  INFO 23272 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1303ee36
+2025-10-27T17:06:16.130+08:00  INFO 23272 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:06:54.120+08:00  INFO 23272 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:06:54.211+08:00  INFO 23272 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:06:54.215+08:00  INFO 23272 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:06:54.222+08:00  INFO 23272 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:06:56.949+08:00  INFO 17388 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 17388 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:06:56.953+08:00  INFO 17388 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:06:58.502+08:00  INFO 17388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:06:58.517+08:00  INFO 17388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:06:58.518+08:00  INFO 17388 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:06:58.591+08:00  INFO 17388 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:06:58.592+08:00  INFO 17388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1579 ms
+2025-10-27T17:06:59.733+08:00  INFO 17388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:06:59.748+08:00  INFO 17388 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.532 seconds (process running for 3.994)
+2025-10-27T17:07:04.148+08:00  INFO 17388 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:07:04.148+08:00  INFO 17388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:07:04.149+08:00  INFO 17388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:07:04.240+08:00 ERROR 17388 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:07:04.331+08:00  INFO 17388 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:07:04.540+08:00  INFO 17388 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12ab6bd0
+2025-10-27T17:07:04.543+08:00  INFO 17388 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:08:07.480+08:00  INFO 17388 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:08:07.567+08:00  INFO 17388 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:08:07.571+08:00  INFO 17388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:08:07.579+08:00  INFO 17388 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:08:16.892+08:00  INFO 17832 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 17832 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:08:16.895+08:00  INFO 17832 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:08:18.419+08:00  INFO 17832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:08:18.434+08:00  INFO 17832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:08:18.436+08:00  INFO 17832 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:08:18.527+08:00  INFO 17832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:08:18.528+08:00  INFO 17832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1569 ms
+2025-10-27T17:08:19.722+08:00  INFO 17832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:08:19.738+08:00  INFO 17832 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.592 seconds (process running for 4.079)
+2025-10-27T17:08:37.722+08:00  INFO 17832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:08:37.723+08:00  INFO 17832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:08:37.724+08:00  INFO 17832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:08:37.813+08:00 ERROR 17832 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:08:37.909+08:00  INFO 17832 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:08:38.129+08:00  INFO 17832 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a543557
+2025-10-27T17:08:38.132+08:00  INFO 17832 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:09:35.301+08:00  INFO 17832 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:09:35.384+08:00  INFO 17832 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:09:35.388+08:00  INFO 17832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:09:35.395+08:00  INFO 17832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:09:41.711+08:00  INFO 7144 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 7144 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:09:41.716+08:00  INFO 7144 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:09:43.284+08:00  INFO 7144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:09:43.301+08:00  INFO 7144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:09:43.301+08:00  INFO 7144 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:09:43.394+08:00  INFO 7144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:09:43.394+08:00  INFO 7144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1619 ms
+2025-10-27T17:09:44.454+08:00  INFO 7144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:09:44.468+08:00  INFO 7144 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.459 seconds (process running for 3.916)
+2025-10-27T17:09:50.510+08:00  INFO 7144 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:09:50.510+08:00  INFO 7144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:09:50.511+08:00  INFO 7144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:09:50.592+08:00 ERROR 7144 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:09:50.693+08:00  INFO 7144 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:09:50.950+08:00  INFO 7144 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c9dc7db
+2025-10-27T17:09:50.953+08:00  INFO 7144 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:09:55.749+08:00 ERROR 7144 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:09:57.631+08:00 ERROR 7144 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:09:59.548+08:00 ERROR 7144 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:10:03.961+08:00 ERROR 7144 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:10:16.896+08:00 ERROR 7144 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:10:20.213+08:00 ERROR 7144 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:31.767+08:00 ERROR 7144 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:34.664+08:00 ERROR 7144 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:38.689+08:00 ERROR 7144 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:41.964+08:00 ERROR 7144 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:43.152+08:00 ERROR 7144 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:46.278+08:00 ERROR 7144 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:51.212+08:00 ERROR 7144 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:11:56.532+08:00 ERROR 7144 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:12:01.607+08:00 ERROR 7144 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:01.123+08:00 ERROR 7144 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:13.175+08:00 ERROR 7144 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:15.611+08:00 ERROR 7144 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:17.226+08:00 ERROR 7144 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:20.803+08:00 ERROR 7144 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:23.449+08:00 ERROR 7144 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:30.683+08:00 ERROR 7144 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:31.885+08:00 ERROR 7144 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:33.110+08:00 ERROR 7144 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:13:52.810+08:00  INFO 7144 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:13:52.897+08:00  INFO 7144 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:13:52.902+08:00  INFO 7144 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:13:52.910+08:00  INFO 7144 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:13:55.985+08:00  INFO 18584 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 18584 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:13:55.989+08:00  INFO 18584 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:13:57.511+08:00  INFO 18584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:13:57.527+08:00  INFO 18584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:13:57.527+08:00  INFO 18584 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:13:57.611+08:00  INFO 18584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:13:57.612+08:00  INFO 18584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1567 ms
+2025-10-27T17:13:58.728+08:00  INFO 18584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:13:58.745+08:00  INFO 18584 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.459 seconds (process running for 3.92)
+2025-10-27T17:14:04.115+08:00  INFO 18584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:14:04.116+08:00  INFO 18584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:14:04.117+08:00  INFO 18584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:14:04.213+08:00 ERROR 18584 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:14:04.302+08:00  INFO 18584 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:14:04.512+08:00  INFO 18584 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ebafe28
+2025-10-27T17:14:04.515+08:00  INFO 18584 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:14:06.414+08:00 ERROR 18584 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:14:09.642+08:00 ERROR 18584 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:12.329+08:00  INFO 18584 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:15:12.428+08:00  INFO 18584 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:15:12.433+08:00  INFO 18584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:15:12.441+08:00  INFO 18584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:15:15.465+08:00  INFO 6072 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 6072 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:15:15.470+08:00  INFO 6072 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:15:16.984+08:00  INFO 6072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:15:17.000+08:00  INFO 6072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:15:17.000+08:00  INFO 6072 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:15:17.081+08:00  INFO 6072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:15:17.082+08:00  INFO 6072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1550 ms
+2025-10-27T17:15:18.207+08:00  INFO 6072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:15:18.223+08:00  INFO 6072 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.513 seconds (process running for 3.965)
+2025-10-27T17:15:24.538+08:00  INFO 6072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:15:24.538+08:00  INFO 6072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:15:24.539+08:00  INFO 6072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:15:24.639+08:00 ERROR 6072 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:26.209+08:00 ERROR 6072 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:28.369+08:00 ERROR 6072 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:31.960+08:00 ERROR 6072 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:33.503+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:33.596+08:00  INFO 6072 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:15:33.822+08:00  INFO 6072 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1455b83
+2025-10-27T17:15:33.824+08:00  INFO 6072 --- [http-nio-8080-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:15:36.100+08:00 ERROR 6072 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:36.482+08:00 ERROR 6072 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:37.897+08:00 ERROR 6072 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:38.814+08:00 ERROR 6072 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:42.428+08:00 ERROR 6072 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:45.198+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:46.555+08:00 ERROR 6072 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:47.689+08:00 ERROR 6072 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:50.969+08:00 ERROR 6072 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:52.683+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:55.921+08:00 ERROR 6072 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:15:57.354+08:00 ERROR 6072 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:16.585+08:00 ERROR 6072 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:19.747+08:00  INFO 6072 --- [http-nio-8080-exec-1] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU2MDE3OX0.JajdvYxbE-jiKthzJ7uEbxylkBydcdWDt-vglazv7SY
+2025-10-27T17:16:19.796+08:00 ERROR 6072 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:26.602+08:00 ERROR 6072 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:27.726+08:00 ERROR 6072 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:29.263+08:00 ERROR 6072 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:32.538+08:00 ERROR 6072 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:33.969+08:00 ERROR 6072 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:35.435+08:00 ERROR 6072 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:36.512+08:00 ERROR 6072 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:37.587+08:00 ERROR 6072 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:39.937+08:00 ERROR 6072 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:16:40.562+08:00 ERROR 6072 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:10.748+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:11.401+08:00 ERROR 6072 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:13.156+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:14.447+08:00 ERROR 6072 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:37.560+08:00 ERROR 6072 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:39.940+08:00 ERROR 6072 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:43.538+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:44.784+08:00 ERROR 6072 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:48.926+08:00 ERROR 6072 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:56.180+08:00 ERROR 6072 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:57.984+08:00 ERROR 6072 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:19:58.757+08:00 ERROR 6072 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:20:04.659+08:00 ERROR 6072 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:20:06.990+08:00 ERROR 6072 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:20:36.411+08:00 ERROR 6072 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:20:39.562+08:00 ERROR 6072 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:20:52.630+08:00 ERROR 6072 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:20:53.791+08:00 ERROR 6072 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:20:57.725+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:21:33.694+08:00 ERROR 6072 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:21:35.775+08:00 ERROR 6072 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:21:38.698+08:00 ERROR 6072 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:21:49.330+08:00 ERROR 6072 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:21:51.634+08:00 ERROR 6072 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:21:52.835+08:00 ERROR 6072 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:21:56.552+08:00 ERROR 6072 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:24:53.928+08:00  INFO 6072 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:24:54.004+08:00  INFO 6072 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:24:54.008+08:00  INFO 6072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:24:54.015+08:00  INFO 6072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:25:10.922+08:00  INFO 11520 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 11520 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:25:10.925+08:00  INFO 11520 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:25:12.573+08:00  INFO 11520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:25:12.591+08:00  INFO 11520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:25:12.591+08:00  INFO 11520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:25:12.682+08:00  INFO 11520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:25:12.682+08:00  INFO 11520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1694 ms
+2025-10-27T17:25:13.838+08:00  INFO 11520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:25:13.859+08:00  INFO 11520 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.727 seconds (process running for 4.268)
+2025-10-27T17:25:22.267+08:00  INFO 11520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:25:22.268+08:00  INFO 11520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:25:22.269+08:00  INFO 11520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:25:22.337+08:00 ERROR 11520 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:25:23.334+08:00 ERROR 11520 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:25:23.444+08:00  INFO 11520 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:25:23.713+08:00  INFO 11520 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@774a07c0
+2025-10-27T17:25:23.717+08:00  INFO 11520 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:25:26.347+08:00 ERROR 11520 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:25:27.346+08:00 ERROR 11520 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:27:26.325+08:00  WARN 11520 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s475ms133µs200ns).
+2025-10-27T17:28:18.283+08:00 ERROR 11520 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:28:18.291+08:00  INFO 11520 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:28:18.374+08:00  INFO 11520 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:28:18.377+08:00  INFO 11520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:28:18.386+08:00  INFO 11520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:28:23.093+08:00  INFO 24188 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 24188 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:28:23.097+08:00  INFO 24188 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:28:24.825+08:00  INFO 24188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:28:24.851+08:00  INFO 24188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:28:24.852+08:00  INFO 24188 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:28:24.957+08:00  INFO 24188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:28:24.958+08:00  INFO 24188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1795 ms
+2025-10-27T17:28:26.122+08:00  INFO 24188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:28:26.137+08:00  INFO 24188 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.876 seconds (process running for 4.414)
+2025-10-27T17:28:33.236+08:00  INFO 24188 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:28:33.236+08:00  INFO 24188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:28:33.237+08:00  INFO 24188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:28:33.333+08:00 ERROR 24188 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:28:33.426+08:00  INFO 24188 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:28:33.646+08:00  INFO 24188 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dd1cb1f
+2025-10-27T17:28:33.649+08:00  INFO 24188 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:28:36.193+08:00 ERROR 24188 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:28:37.593+08:00 ERROR 24188 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:29:51.115+08:00  WARN 24188 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s360ms980µs900ns).
+2025-10-27T17:29:51.160+08:00  INFO 24188 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:29:51.378+08:00  INFO 24188 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:29:51.382+08:00  INFO 24188 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:29:51.391+08:00  INFO 24188 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:30:14.588+08:00  INFO 9704 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 9704 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:30:14.594+08:00  INFO 9704 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:30:16.233+08:00  INFO 9704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:30:16.261+08:00  INFO 9704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:30:16.261+08:00  INFO 9704 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:30:16.340+08:00  INFO 9704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:30:16.340+08:00  INFO 9704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1679 ms
+2025-10-27T17:30:17.490+08:00  INFO 9704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:30:17.504+08:00  INFO 9704 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.703 seconds (process running for 4.248)
+2025-10-27T17:30:22.265+08:00  INFO 9704 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:30:22.265+08:00  INFO 9704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:30:22.267+08:00  INFO 9704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:30:22.373+08:00 ERROR 9704 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:30:22.475+08:00  INFO 9704 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:30:22.729+08:00  INFO 9704 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b5ce64a
+2025-10-27T17:30:22.732+08:00  INFO 9704 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:30:25.096+08:00 ERROR 9704 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:30:27.343+08:00 ERROR 9704 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:30:32.020+08:00 ERROR 9704 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:30:43.178+08:00  INFO 9704 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:30:43.257+08:00  INFO 9704 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:30:43.264+08:00  INFO 9704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:30:43.276+08:00  INFO 9704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:30:54.361+08:00  INFO 13548 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 13548 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:30:54.365+08:00  INFO 13548 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:30:56.021+08:00  INFO 13548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:30:56.045+08:00  INFO 13548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:30:56.046+08:00  INFO 13548 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:30:56.152+08:00  INFO 13548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:30:56.153+08:00  INFO 13548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1718 ms
+2025-10-27T17:30:57.296+08:00  INFO 13548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:30:57.310+08:00  INFO 13548 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.739 seconds (process running for 4.28)
+2025-10-27T17:31:03.834+08:00  INFO 13548 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:31:03.834+08:00  INFO 13548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:31:03.836+08:00  INFO 13548 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:31:03.931+08:00 ERROR 13548 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:31:04.027+08:00  INFO 13548 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:31:04.252+08:00  INFO 13548 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d9e8c9b
+2025-10-27T17:31:04.256+08:00  INFO 13548 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:31:08.852+08:00 ERROR 13548 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:32:34.707+08:00  INFO 13548 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:32:34.788+08:00  INFO 13548 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:32:34.791+08:00  INFO 13548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:32:34.799+08:00  INFO 13548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:32:37.561+08:00  INFO 9512 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 9512 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:32:37.565+08:00  INFO 9512 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:32:39.174+08:00  INFO 9512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:32:39.200+08:00  INFO 9512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:32:39.200+08:00  INFO 9512 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:32:39.282+08:00  INFO 9512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:32:39.283+08:00  INFO 9512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1653 ms
+2025-10-27T17:32:40.461+08:00  INFO 9512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:32:40.475+08:00  INFO 9512 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.69 seconds (process running for 4.227)
+2025-10-27T17:32:46.187+08:00  INFO 9512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:32:46.187+08:00  INFO 9512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:32:46.188+08:00  INFO 9512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:32:46.300+08:00 ERROR 9512 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:32:46.469+08:00  INFO 9512 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:32:46.781+08:00  INFO 9512 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b16ec32
+2025-10-27T17:32:46.784+08:00  INFO 9512 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:32:48.425+08:00 ERROR 9512 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:34:35.338+08:00  WARN 9512 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s538ms806µs800ns).
+2025-10-27T17:34:35.379+08:00 ERROR 9512 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:34:35.401+08:00  INFO 9512 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:34:35.480+08:00  INFO 9512 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:34:35.484+08:00  INFO 9512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:34:35.492+08:00  INFO 9512 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:34:38.024+08:00  INFO 28596 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 28596 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:34:38.027+08:00  INFO 28596 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:34:39.593+08:00  INFO 28596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:34:39.609+08:00  INFO 28596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:34:39.610+08:00  INFO 28596 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:34:39.700+08:00  INFO 28596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:34:39.701+08:00  INFO 28596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1614 ms
+2025-10-27T17:34:40.872+08:00  INFO 28596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:34:40.886+08:00  INFO 28596 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.616 seconds (process running for 4.086)
+2025-10-27T17:35:08.164+08:00  INFO 28596 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:35:08.164+08:00  INFO 28596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:35:08.165+08:00  INFO 28596 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:35:08.357+08:00  INFO 28596 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:35:08.577+08:00  INFO 28596 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4013da4b
+2025-10-27T17:35:08.580+08:00  INFO 28596 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:35:08.763+08:00 ERROR 28596 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:35:55.008+08:00 ERROR 28596 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:37:01.992+08:00  INFO 28596 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:37:02.089+08:00  INFO 28596 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:37:02.093+08:00  INFO 28596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:37:02.103+08:00  INFO 28596 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:38:27.629+08:00  INFO 23040 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 23040 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:38:27.633+08:00  INFO 23040 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:38:29.114+08:00  INFO 23040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:38:29.130+08:00  INFO 23040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:38:29.130+08:00  INFO 23040 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:38:29.213+08:00  INFO 23040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:38:29.213+08:00  INFO 23040 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1515 ms
+2025-10-27T17:38:30.326+08:00  INFO 23040 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:38:30.340+08:00  INFO 23040 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.446 seconds (process running for 3.904)
+2025-10-27T17:38:45.378+08:00  INFO 23040 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:38:45.379+08:00  INFO 23040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:38:45.380+08:00  INFO 23040 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:38:45.450+08:00 ERROR 23040 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:38:56.006+08:00  INFO 23040 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:38:56.231+08:00  INFO 23040 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@696a6e5f
+2025-10-27T17:38:56.234+08:00  INFO 23040 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:38:56.409+08:00  INFO 23040 --- [http-nio-8080-exec-2] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MiwidXNlck5hbWUiOiJsaXNpIiwiZXhwIjoxNzYxNTYxNTM2fQ.ggdRNwze3f0drxKNjx8tZNRmrnZ8kRkBOmB-OIFk5hE
+2025-10-27T17:38:56.569+08:00 ERROR 23040 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:01.671+08:00 ERROR 23040 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:02.983+08:00 ERROR 23040 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:06.982+08:00 ERROR 23040 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:35.288+08:00 ERROR 23040 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:35.289+08:00 ERROR 23040 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:35.317+08:00 ERROR 23040 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:35.379+08:00 ERROR 23040 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:38.524+08:00  INFO 23040 --- [http-nio-8080-exec-1] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU2MTU3OH0.VysDgtEwIouIJTQjRJ7nhn7cndOijuMTaKWYgzMuBcs
+2025-10-27T17:39:38.604+08:00 ERROR 23040 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:41.004+08:00 ERROR 23040 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:42.883+08:00 ERROR 23040 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:44.277+08:00 ERROR 23040 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:45.267+08:00 ERROR 23040 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:39:49.286+08:00 ERROR 23040 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:40:53.891+08:00 ERROR 23040 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:40:53.891+08:00 ERROR 23040 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:40:53.921+08:00 ERROR 23040 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:40:53.982+08:00 ERROR 23040 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:41:05.985+08:00  INFO 23040 --- [http-nio-8080-exec-8] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU2MTY2NX0.1ax6W61JV_4td8kVdath_5joM-wAy18FZWLkpcLYIwM
+2025-10-27T17:41:06.064+08:00 ERROR 23040 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:41:07.652+08:00 ERROR 23040 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:41:09.231+08:00 ERROR 23040 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:41:12.432+08:00 ERROR 23040 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:17.880+08:00  INFO 23040 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:49:17.984+08:00  INFO 23040 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:49:17.988+08:00  INFO 23040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:49:17.995+08:00  INFO 23040 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T17:49:20.902+08:00  INFO 4048 --- [main] com.example.blog.BlogDemoApplication     : Starting BlogDemoApplication using Java 17.0.16 with PID 4048 (D:\Javacode\java-ee\blog-demo\target\classes started by zxcvz in D:\Javacode\java-ee\blog-demo)
+2025-10-27T17:49:20.905+08:00  INFO 4048 --- [main] com.example.blog.BlogDemoApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T17:49:22.457+08:00  INFO 4048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T17:49:22.475+08:00  INFO 4048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T17:49:22.477+08:00  INFO 4048 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T17:49:22.571+08:00  INFO 4048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T17:49:22.572+08:00  INFO 4048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1607 ms
+2025-10-27T17:49:23.761+08:00  INFO 4048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T17:49:23.777+08:00  INFO 4048 --- [main] com.example.blog.BlogDemoApplication     : Started BlogDemoApplication in 3.615 seconds (process running for 4.104)
+2025-10-27T17:49:34.738+08:00  INFO 4048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T17:49:34.738+08:00  INFO 4048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T17:49:34.739+08:00  INFO 4048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T17:49:34.820+08:00 ERROR 4048 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:36.013+08:00 ERROR 4048 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:40.616+08:00 ERROR 4048 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:43.287+08:00 ERROR 4048 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:44.240+08:00 ERROR 4048 --- [http-nio-8080-exec-8] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:44.387+08:00 ERROR 4048 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:44.546+08:00 ERROR 4048 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:46.514+08:00  INFO 4048 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T17:49:46.762+08:00  INFO 4048 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d40c9fc
+2025-10-27T17:49:46.766+08:00  INFO 4048 --- [http-nio-8080-exec-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T17:49:46.946+08:00  INFO 4048 --- [http-nio-8080-exec-6] c.e.blog.controller.UserController       : UserController#login 返回结果token:eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlck5hbWUiOiJ6aGFuZ3NhbiIsImV4cCI6MTc2MTU2MjE4Nn0.6znkt5PLq5RgF3561SlhbBUSMi1psVPG_7gMzCnVCV0
+2025-10-27T17:49:47.074+08:00 ERROR 4048 --- [http-nio-8080-exec-5] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:48.772+08:00 ERROR 4048 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:50.926+08:00 ERROR 4048 --- [http-nio-8080-exec-10] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:51.943+08:00 ERROR 4048 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:53.654+08:00 ERROR 4048 --- [http-nio-8080-exec-7] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:55.269+08:00 ERROR 4048 --- [http-nio-8080-exec-6] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:56.456+08:00 ERROR 4048 --- [http-nio-8080-exec-2] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:57.773+08:00 ERROR 4048 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:49:59.940+08:00 ERROR 4048 --- [http-nio-8080-exec-1] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:50:02.152+08:00 ERROR 4048 --- [http-nio-8080-exec-4] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:50:04.720+08:00 ERROR 4048 --- [http-nio-8080-exec-3] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:50:22.850+08:00 ERROR 4048 --- [http-nio-8080-exec-9] com.example.blog.utils.JwtUtils          : 解析token失败, token:null
+2025-10-27T17:51:21.627+08:00  INFO 4048 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T17:51:21.706+08:00  INFO 4048 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T17:51:21.706+08:00  INFO 4048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T17:51:21.719+08:00  INFO 4048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

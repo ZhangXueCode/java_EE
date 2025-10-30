@@ -1,0 +1,92 @@
+2025-10-22T15:30:17.987+08:00  INFO 15080 --- [main] com.example.book.BookApplication         : Starting BookApplication using Java 17.0.16 with PID 15080 (D:\Javacode\java-ee\book-demo\target\classes started by zxcvz in D:\Javacode\java-ee\book-demo)
+2025-10-22T15:30:17.998+08:00  INFO 15080 --- [main] com.example.book.BookApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T15:30:19.616+08:00  INFO 15080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-22T15:30:19.634+08:00  INFO 15080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-22T15:30:19.634+08:00  INFO 15080 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-22T15:30:19.725+08:00  INFO 15080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-22T15:30:19.725+08:00  INFO 15080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1664 ms
+2025-10-22T15:30:20.994+08:00  INFO 15080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-22T15:30:21.009+08:00  INFO 15080 --- [main] com.example.book.BookApplication         : Started BookApplication in 3.76 seconds (process running for 4.339)
+2025-10-22T15:30:45.967+08:00  INFO 15080 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-22T15:30:45.967+08:00  INFO 15080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-22T15:30:45.969+08:00  INFO 15080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-22T15:30:46.241+08:00  WARN 15080 --- [http-nio-8080-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [103] milliseconds.
+2025-10-22T15:30:57.640+08:00  INFO 15080 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-22T15:30:57.891+08:00  INFO 15080 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bcb461c
+2025-10-22T15:30:57.903+08:00  INFO 15080 --- [http-nio-8080-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-22T15:32:04.427+08:00 ERROR 15080 --- [http-nio-8080-exec-8] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T15:35:20.481+08:00  INFO 15080 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-22T15:35:20.602+08:00  INFO 15080 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-22T15:35:20.607+08:00  INFO 15080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-22T15:35:20.628+08:00  INFO 15080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-22T15:35:25.753+08:00  INFO 11832 --- [main] com.example.book.BookApplication         : Starting BookApplication using Java 17.0.16 with PID 11832 (D:\Javacode\java-ee\book-demo\target\classes started by zxcvz in D:\Javacode\java-ee\book-demo)
+2025-10-22T15:35:25.757+08:00  INFO 11832 --- [main] com.example.book.BookApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T15:35:27.226+08:00  INFO 11832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-22T15:35:27.241+08:00  INFO 11832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-22T15:35:27.242+08:00  INFO 11832 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-22T15:35:27.318+08:00  INFO 11832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-22T15:35:27.318+08:00  INFO 11832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1496 ms
+2025-10-22T15:35:28.398+08:00  INFO 11832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-22T15:35:28.412+08:00  INFO 11832 --- [main] com.example.book.BookApplication         : Started BookApplication in 3.308 seconds (process running for 3.733)
+2025-10-22T15:35:34.453+08:00  INFO 11832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-22T15:35:34.454+08:00  INFO 11832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-22T15:35:34.454+08:00  INFO 11832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-22T15:35:44.554+08:00  INFO 11832 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-22T15:35:44.755+08:00  INFO 11832 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32282b78
+2025-10-22T15:35:44.755+08:00  INFO 11832 --- [http-nio-8080-exec-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-22T15:35:49.328+08:00 ERROR 11832 --- [http-nio-8080-exec-9] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T15:37:16.306+08:00  INFO 11832 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-22T15:37:16.424+08:00  INFO 11832 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-22T15:37:16.428+08:00  INFO 11832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-22T15:37:16.439+08:00  INFO 11832 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-22T15:37:19.483+08:00  INFO 13932 --- [main] com.example.book.BookApplication         : Starting BookApplication using Java 17.0.16 with PID 13932 (D:\Javacode\java-ee\book-demo\target\classes started by zxcvz in D:\Javacode\java-ee\book-demo)
+2025-10-22T15:37:19.486+08:00  INFO 13932 --- [main] com.example.book.BookApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T15:37:20.976+08:00  INFO 13932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-22T15:37:20.992+08:00  INFO 13932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-22T15:37:20.993+08:00  INFO 13932 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-22T15:37:21.069+08:00  INFO 13932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-22T15:37:21.069+08:00  INFO 13932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1520 ms
+2025-10-22T15:37:22.174+08:00  INFO 13932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-22T15:37:22.188+08:00  INFO 13932 --- [main] com.example.book.BookApplication         : Started BookApplication in 3.371 seconds (process running for 3.794)
+2025-10-22T15:37:26.138+08:00  INFO 13932 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-22T15:37:26.139+08:00  INFO 13932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-22T15:37:26.140+08:00  INFO 13932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-22T15:37:33.223+08:00  INFO 13932 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-22T15:37:33.444+08:00  INFO 13932 --- [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11caed29
+2025-10-22T15:37:33.451+08:00  INFO 13932 --- [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-22T15:37:33.775+08:00 ERROR 13932 --- [http-nio-8080-exec-9] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T15:37:43.957+08:00  INFO 13932 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-22T15:37:44.053+08:00  INFO 13932 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-22T15:37:44.064+08:00  INFO 13932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-22T15:37:44.071+08:00  INFO 13932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-22T20:18:03.468+08:00  INFO 23972 --- [main] com.example.book.BookApplication         : Starting BookApplication using Java 17.0.16 with PID 23972 (D:\Javacode\java-ee\book-demo\target\classes started by zxcvz in D:\Javacode\java-ee\book-demo)
+2025-10-22T20:18:03.473+08:00  INFO 23972 --- [main] com.example.book.BookApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-22T20:18:05.329+08:00  INFO 23972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-22T20:18:05.352+08:00  INFO 23972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-22T20:18:05.352+08:00  INFO 23972 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-22T20:18:05.435+08:00  INFO 23972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-22T20:18:05.436+08:00  INFO 23972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1889 ms
+2025-10-22T20:18:06.941+08:00  INFO 23972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-22T20:18:06.957+08:00  INFO 23972 --- [main] com.example.book.BookApplication         : Started BookApplication in 4.181 seconds (process running for 4.637)
+2025-10-22T20:18:45.259+08:00  INFO 23972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-22T20:18:45.260+08:00  INFO 23972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-22T20:18:45.261+08:00  INFO 23972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-22T20:18:51.647+08:00  INFO 23972 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-22T20:18:51.859+08:00  INFO 23972 --- [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ef4b700
+2025-10-22T20:18:51.862+08:00  INFO 23972 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-22T20:18:52.074+08:00  INFO 23972 --- [http-nio-8080-exec-2] c.example.book.aspect.TimeRecordsAspect  : 时间为：448
+2025-10-22T20:18:52.249+08:00  INFO 23972 --- [http-nio-8080-exec-5] c.example.book.aspect.TimeRecordsAspect  : 时间为：24
+2025-10-22T20:18:52.253+08:00 ERROR 23972 --- [http-nio-8080-exec-6] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T20:18:55.492+08:00  INFO 23972 --- [http-nio-8080-exec-8] c.example.book.aspect.TimeRecordsAspect  : 时间为：17
+2025-10-22T20:18:55.501+08:00 ERROR 23972 --- [http-nio-8080-exec-9] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T20:18:57.161+08:00  INFO 23972 --- [http-nio-8080-exec-1] c.example.book.aspect.TimeRecordsAspect  : 时间为：7
+2025-10-22T20:18:57.181+08:00 ERROR 23972 --- [http-nio-8080-exec-4] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T20:19:00.387+08:00  INFO 23972 --- [http-nio-8080-exec-2] c.example.book.aspect.TimeRecordsAspect  : 时间为：13
+2025-10-22T20:19:00.445+08:00  INFO 23972 --- [http-nio-8080-exec-6] c.example.book.aspect.TimeRecordsAspect  : 时间为：11
+2025-10-22T20:19:00.465+08:00 ERROR 23972 --- [http-nio-8080-exec-5] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T20:19:03.649+08:00  INFO 23972 --- [http-nio-8080-exec-7] c.example.book.aspect.TimeRecordsAspect  : 时间为：8
+2025-10-22T20:19:03.678+08:00 ERROR 23972 --- [http-nio-8080-exec-8] c.example.book.config.ExceptionAdvice    : e:org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+2025-10-22T20:19:28.097+08:00  INFO 23972 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-22T20:19:28.174+08:00  INFO 23972 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-22T20:19:28.178+08:00  INFO 23972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-22T20:19:28.184+08:00  INFO 23972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

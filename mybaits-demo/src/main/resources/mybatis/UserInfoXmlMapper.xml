@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.UserInfoXmlMapper">
+    <sql id="select">
+        select * from user_info
+    </sql>
+    <insert id="insert">
+        insert into user_info (username,age,gender,password)
+        values (#{username},#{age},#{gender},#{password})
+    </insert>
+
+    <delete id="delete">
+        delete from user_info where id = #{id}
+    </delete>
+
+    <update id="update">
+        update user_info set age = #{age} where username = #{username}
+    </update>
+
+    <select id="selectAll">
+        <include refid="select"> </include>
+    </select>
+
+    <insert id="insert2">
+        insert into user_info
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+        <if test="username != null">
+            username
+        </if>
+        <if test="age != null">
+            ,age
+        </if>
+        <if test="gender != null">
+            ,gender
+        </if>
+        <if test="password != null">
+            ,password
+        </if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" prefixOverrides=",">
+        <if test="username != null">
+            #{username}
+        </if>
+        <if test="age != null">
+            ,#{age}
+        </if>
+        <if test="gender != null">
+            ,#{gender}
+        </if>
+        <if test="password != null">
+            ,#{password}
+        </if>
+        </trim>
+    </insert>
+
+    <select id="selectByUsername">
+        select * from user_info
+        <where>
+            <if test="id != null">
+                id = #{id}
+            </if>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="password != null">
+                and password = #{password}
+            </if>
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+        </where>
+    </select>
+    
+    <update id="updateBy">
+        update user_info
+        <set>
+            <if test="username != null">
+                username = #{username},
+            </if>
+            <if test="gender != null">
+                gender = #{gender}
+            </if>
+        </set>
+        where age=#{age}
+    </update>
+
+    <delete id="delete2">
+        delete from user_info where id in
+        <foreach collection="ids" item="id" open="(" close=")" separator=",">
+            #{id}
+        </foreach>
+    </delete>
+
+    <insert id="insertP">
+        insert into user_info (username,age,gender,password)
+        values
+        <foreach collection="userInfos" item="userInfo" separator=",">
+            (#{userInfo.username},#{userInfo.age},#{userInfo.gender},#{userInfo.password})
+        </foreach>
+    </insert>
+
+
+
+</mapper>
